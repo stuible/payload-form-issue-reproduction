@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@payloadcms/db-sqlite": "3.61.0",
+    "@payloadcms/email-nodemailer": "^3.61.0",
     "@payloadcms/next": "3.61.0",
     "@payloadcms/payload-cloud": "3.61.0",
     "@payloadcms/plugin-form-builder": "^3.61.0",
