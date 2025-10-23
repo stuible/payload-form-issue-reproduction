@@ -18,8 +18,10 @@
     "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts"
   },
   "dependencies": {
+    "@payloadcms/db-sqlite": "3.61.0",
     "@payloadcms/next": "3.61.0",
     "@payloadcms/payload-cloud": "3.61.0",
+    "@payloadcms/plugin-form-builder": "^3.61.0",
     "@payloadcms/richtext-lexical": "3.61.0",
     "@payloadcms/ui": "3.61.0",
     "cross-env": "^7.0.3",
@@ -29,8 +31,7 @@
     "payload": "3.61.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "sharp": "0.34.2",
-    "@payloadcms/db-sqlite": "3.61.0"
+    "sharp": "0.34.2"
   },
   "devDependencies": {
     "@playwright/test": "1.54.1",
